@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.header,
+.main,
+.selection,
+body {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.header {
+    height: 80px;
+    background-color: rgb(34, 196, 96);
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.main {
+    height: 450px;
+    background-color: #30AFFF;
+    justify-content: center;
+}
+
+.playersChoice,
+.computersChoice,
+.result {
+    display: flex;
+    flex: 1;
+    background-color: #92EEFF;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+.playersChoice,
+.computersChoice {
+    flex-direction: column;
+}
+
+.result {
+    flex-grow: 2;
+}
+
+.selection {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4F7CA;
+}
+
+.itemSelect {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    background-color: #C4F7CA; 
+    border: 0;
+}
+
+.imgOption {
+    height: 230px;
+    width: auto;
+}

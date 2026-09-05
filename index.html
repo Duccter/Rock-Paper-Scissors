@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="header">
+        Rock Paper Scissors
+    </div>
+
+    <div class="main">
+        <div class="playersChoice">
+            <div class="text"> Your choice </div>
+            <img class="imgOption" id="imgPlayer">
+        </div>
+
+        <div class="result">
+            
+        </div>
+
+        <div class="computersChoice">
+            <div class="text"> Computer's choice </div>
+            <img class="imgOption" id="imgComputer">
+        </div>
+    </div>
+
+    <div class="selection">
+        <button class="itemSelect" id="btn1">
+            <img src="./images/rock.png" class="imgOption">
+        </button>
+
+        <button class="itemSelect" id="btn2">
+            <img src="./images/paper.png" class="imgOption">
+        </button>
+
+        <button class="itemSelect" id="btn3">
+            <img src="./images/scissors.png" class="imgOption">
+        </button>
+
+
+    </div>
 </body>
 </html>
